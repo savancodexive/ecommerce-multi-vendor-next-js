@@ -1,4 +1,5 @@
-import 'tailwindcss/tailwind.css'
+// import 'tailwindcss/tailwind.css'
+import 'dist/main.css'
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />

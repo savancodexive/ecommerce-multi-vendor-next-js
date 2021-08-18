@@ -1,12 +1,15 @@
+import TopHeader from '@components/TopHeader'
 import Head from 'next/head'
 
-export default function Home() {
+export default function Admin() {
   	return (
 		<div className="">
 			<Head>
-				<title>Home</title>
+				<title>Admin</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
+
+            <TopHeader />
 		</div>
   	)
 }
